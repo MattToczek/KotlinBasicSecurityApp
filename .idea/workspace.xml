@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5be78023-bd2c-4028-be2a-1369310a9cb0" name="Default Changelist" comment="" />
+    <list default="true" id="5be78023-bd2c-4028-be2a-1369310a9cb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/rsk/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Program.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Program.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XIwP8vK9MGv3BzmPaPhSV2aIPP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="ProgramKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -63,26 +74,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="318" key="GridCell.Tab.0.bottom" timestamp="1580749558878">
-      <screen x="0" y="23" width="1792" height="1039" />
+    <state width="1671" height="340" key="GridCell.Tab.0.bottom" timestamp="1580809885380">
+      <screen x="0" y="-1057" width="2560" height="1057" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1989.-2160.3840.2160@0.0.1792.1120" timestamp="1580748627926" />
     <state width="1358" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1039/-1989.-2137.3840.2137@0.23.1792.1039" timestamp="1580749558878" />
-    <state width="1358" height="318" key="GridCell.Tab.0.center" timestamp="1580749558877">
-      <screen x="0" y="23" width="1792" height="1039" />
+    <state width="1671" height="340" key="GridCell.Tab.0.bottom/0.23.1792.1039/0.-1057.2560.1057@0.-1057.2560.1057" timestamp="1580809885380" />
+    <state width="880" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1039@0.23.1792.1039" timestamp="1580753624911" />
+    <state width="1671" height="340" key="GridCell.Tab.0.center" timestamp="1580809885379">
+      <screen x="0" y="-1057" width="2560" height="1057" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-1989.-2160.3840.2160@0.0.1792.1120" timestamp="1580748627924" />
     <state width="1358" height="318" key="GridCell.Tab.0.center/0.23.1792.1039/-1989.-2137.3840.2137@0.23.1792.1039" timestamp="1580749558877" />
-    <state width="1358" height="318" key="GridCell.Tab.0.left" timestamp="1580749558876">
-      <screen x="0" y="23" width="1792" height="1039" />
+    <state width="1671" height="340" key="GridCell.Tab.0.center/0.23.1792.1039/0.-1057.2560.1057@0.-1057.2560.1057" timestamp="1580809885379" />
+    <state width="880" height="318" key="GridCell.Tab.0.center/0.23.1792.1039@0.23.1792.1039" timestamp="1580753624910" />
+    <state width="1671" height="340" key="GridCell.Tab.0.left" timestamp="1580809885378">
+      <screen x="0" y="-1057" width="2560" height="1057" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-1989.-2160.3840.2160@0.0.1792.1120" timestamp="1580748627923" />
     <state width="1358" height="318" key="GridCell.Tab.0.left/0.23.1792.1039/-1989.-2137.3840.2137@0.23.1792.1039" timestamp="1580749558876" />
-    <state width="1358" height="318" key="GridCell.Tab.0.right" timestamp="1580749558877">
-      <screen x="0" y="23" width="1792" height="1039" />
+    <state width="1671" height="340" key="GridCell.Tab.0.left/0.23.1792.1039/0.-1057.2560.1057@0.-1057.2560.1057" timestamp="1580809885378" />
+    <state width="880" height="318" key="GridCell.Tab.0.left/0.23.1792.1039@0.23.1792.1039" timestamp="1580753624909" />
+    <state width="1671" height="340" key="GridCell.Tab.0.right" timestamp="1580809885379">
+      <screen x="0" y="-1057" width="2560" height="1057" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-1989.-2160.3840.2160@0.0.1792.1120" timestamp="1580748627925" />
     <state width="1358" height="318" key="GridCell.Tab.0.right/0.23.1792.1039/-1989.-2137.3840.2137@0.23.1792.1039" timestamp="1580749558877" />
+    <state width="1671" height="340" key="GridCell.Tab.0.right/0.23.1792.1039/0.-1057.2560.1057@0.-1057.2560.1057" timestamp="1580809885379" />
+    <state width="880" height="318" key="GridCell.Tab.0.right/0.23.1792.1039@0.23.1792.1039" timestamp="1580753624910" />
     <state x="561" y="251" key="search.everywhere.popup" timestamp="1580748087314">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

@@ -1,21 +1,29 @@
+import com.rsk.Person
 import com.rsk.Providers
 import java.security.Security.getProviders
 
 fun main(args: Array<String>) {
+//
+////  using companion object inside rsk.Providers class (same as static method in Java)
+//    val allProviders = Providers.getProviders()
+//
+//    val it = allProviders.iterator()
+//
+////  .hasNext() is Java usually
+//    while(it.hasNext()){
+//        val provider = it.next()
+//        println(provider.name)
+//
+////      .forEach() is idiomatic use of Kotlin syntax
+//        provider.forEach{key, value -> println("\t$key: $value")}
+//    }
 
-//  using companion object inside rsk.Providers class (same as static method in Java)
-    val allProviders = Providers.getProviders()
+    val p = Person("Matt", 29)
+    p.sign()
 
-    val it = allProviders.iterator()
-
-//  .hasNext() is Java usually
-    while(it.hasNext()){
-        val provider = it.next()
-        println(provider.name)
-
-//      .forEach() is idiomatic use of Kotlin syntax
-        provider.forEach{key, value -> println("\t$key: $value")}
-    }
+//  can change age but not name - var vs. val
+    p.age = 30
+    p.sign()
 
 }
 
